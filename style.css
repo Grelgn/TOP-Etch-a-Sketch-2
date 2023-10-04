@@ -1,0 +1,10 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.square {
+    border-style: solid;
+    width: 64px;
+    height: 64px;
+}
