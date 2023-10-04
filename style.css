@@ -4,7 +4,12 @@
 }
 
 .square {
-    border-style: solid;
-    width: 64px;
-    height: 64px;
+    border-style:inset;
+    border-width: 1px;
+    width: 48px;
+    height: 48px;
+}
+
+.hover {
+    background-color: black;
 }
