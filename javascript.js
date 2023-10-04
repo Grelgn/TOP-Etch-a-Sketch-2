@@ -1,6 +1,15 @@
 const container = document.querySelector('.container');
 
-const square = document.createElement('div');
-square.setAttribute("class", "square");
+for (i = 0; i < 16; i++) {
+    const row = document.createElement('div');
+    row.setAttribute("class", "row");
 
-container.appendChild(square);
+    for (j = 0; j < 16; j++) {
+        const square = document.createElement('div');
+        square.setAttribute("class", "square");
+    
+        row.appendChild(square);
+    }
+
+    container.appendChild(row);
+}
